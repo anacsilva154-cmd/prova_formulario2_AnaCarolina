@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2 </title>
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+    <fieldset>
+ <h1> Formulário TechNext</h1>
+    </fieldset>
+
+    <fieldset>
+    <h2>Dados Pessoais:</h2>
+
+    <label for="name">Nome Completo</label> <br>
+    <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required> <br>
+    <p></p>
+    
+    <label for="email">E-mail</label> 
+    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required> <br>
+    <p></p>
+
+    <label for="idade">Idade</label> 
+    <input type="number" id="idade" name="idade" placeholder="Digite sua idade" required> <br>
+    <p></p>
+
+    <label for="telefone">Telefone</label> 
+    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+    <p></p>
+
+    <label for="cidade">Cidade</label>
+    <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade" required>
+    
+    </fieldset> 
+
+
+    <fieldset>
+    <h2>Preferências:</h2>
+
+    <label>Área de Interesses</label> 
+        <select name="area" id="area">
+            <option value="Selecione">Selecione uma opção</option>
+            <option value="desenvolvimento">Desenvolvimento</option>
+            <option value="finanças">Finanças</option>
+            <option value="marketing">Marketing</option>
+            <option value="vendas">Vendas</option>
+            <option value="gerenciamento">Gestão</option>
+            <option value="administração">Administração</option>
+            <option value="outros">Outros</option>
+        </select>
+
+    <p></p>
+       <label>Turno Preferido</label> <br>
+       <input type="radio" id="turno" > Manhã
+       <input type="radio" id="turno" > Tarde
+       <input type="radio" id="turno" > Noite
+       <p></p><p></p>
+
+       <label>Recursos que já aprendeu</label>
+       <input type="checkbox" id="recurso" > Input 
+       <input type="checkbox" id="recurso" > select
+       <input type="checkbox" id="recurso" > radio
+       <input type="checkbox" id="recurso" > checkbox
+       <input type="checkbox" id="recurso" > textarea
+       <p></p>
+       </fieldset>
+
+
+       <fieldset>
+           <legend>Deixe aqui suas observações!</legend> <br>
+           <textarea name="observacoes" id="observacoes" cols="30" rows="10"></textarea>
+           <p></p>
+       </fieldset>
+</body>
+</html>
